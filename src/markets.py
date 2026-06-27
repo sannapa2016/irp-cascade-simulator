@@ -19,7 +19,7 @@ class Market:
     name: str
     currency: str
     fx_to_eur: float
-    iqvia_voume_units: int
+    iqvia_volume_units: int
     references: List[str]
     reference_discount: float
     mandatory_rebate: float
@@ -49,5 +49,4 @@ if __name__ == "__main__":
               f"References: {market.references} | "
               f"Rebate: {market.mandatory_rebate*100:.0f}% | "
               f"Access days: {market.avg_access_days}")
-        
         
