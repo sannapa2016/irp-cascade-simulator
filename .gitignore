@@ -5,3 +5,4 @@ __pycache__/
 outputs/*.csv
 .env
 .DS_Store
+*.egg-info/
